@@ -1,0 +1,120 @@
+* {
+   -fx-primary : #2A2E37; 
+   -fx-secondary : #FFFF8D;
+   -fx-primarytext: #B2B2B2; 
+   -fx-red: #FF3333;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+.glyph-icon {
+    -fx-fill: -fx-primarytext;
+}
+
+.button {
+    -fx-text-fill: -fx-primarytext;
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25px;
+    -fx-font-size: 13pt;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primary;
+    
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-primary;
+}
+
+/* Login Screen Specific */
+.text-field {
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-size: 13pt;
+    -jfx-focus-color:-fx-secondary;
+}
+
+.combo-box {
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-size: 13pt;
+    -jfx-focus-color:-fx-secondary;
+}
+
+.wrong-credentials {
+    -jfx-unfocus-color: -fx-red;
+    -jfx-focus-color: -fx-red;
+}
+
+/*Main Screen Specific*/
+
+/*TabPane Styling*/
+.tab{
+    -fx-background-color: -fx-primary;
+    -fx-pref-width: 280;
+    -fx-pref-height: 60;
+
+}
+
+.tab-header-background {
+    -fx-background-color: -fx-primary;
+}
+
+
+
+/*MenuBar Styling*/
+.menu-bar {
+    -fx-base: -fx-primary;
+    -fx-background-color: -fx-secondary;
+}
+.context-menu {
+    -fx-background-color: derive(-fx-primary, 20%);
+}
+
+/*Hamburguer Styling*/
+
+.jfx-hamburguer-icon {
+    -fx-spacing: 7;
+}
+.jfx-hamburguer-icon StackPane {
+    -fx-background-color: -fx-secondary;
+    -fx-background-radius: 5px;
+}
+
+/*Toolbar Buttons*/
+.toolbar-button {
+    -fx-background-color: derive(-fx-primary, 20%);
+    -fx-border-color: derive(-fx-primary, 50%);
+    -fx-text-fill: -fx-primarytext;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-font-size: 13pt;
+    -fx-font-weight: bold;
+}
+
+.toolbar-button:hover {
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primary;
+}
+
+.toolbar-button:hover .glyph-icon {
+    -fx-fill: -fx-primary;
+}
+
+/*Text Styling*/
+.main-text {
+    -fx-fill: -fx-secondary;
+    -fx-font-size: 14pt;
+    -fx-text-alignment: center;
+}
+
+.submission-container {
+    -fx-background-color: derive(-fx-primary, 10%);
+}
