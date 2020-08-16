@@ -6,6 +6,7 @@ There is a database that stores all the products for sale and it updates wheneve
 # Technologies
 - Java SE Development Kit 8u261
 - DerbyDB
+- SceneBuilder
 - Netbeans IDE 8.2
 
 # Screenshots
